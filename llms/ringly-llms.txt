@@ -1,0 +1,37 @@
+# Ringly
+
+> Ringly (ringly.io) is AI-powered phone support built for Shopify e-commerce brands. Its AI voice agent "Seth" answers customer service calls 24/7 — WISMO (where-is-my-order), returns, product, inventory, and policy questions — and takes real actions via Shopify order/catalog data and helpdesk/tracking tools (Gorgias, TrackingMore). Delivered as a hosted SaaS and a Shopify app. As of this profile, Ringly publishes no public developer API, SDK, or webhook surface.
+
+## About
+
+- Company: Ringly
+- Category: Conversational AI, AI voice agent, e-commerce customer support
+- Delivery: Hosted SaaS + Shopify app
+- Integrations: Shopify (primary), Gorgias (helpdesk), TrackingMore (order tracking)
+- Positioning: 65% call-resolution guarantee within 90 days; plans priced by included call minutes
+- Backed by: Andreessen Horowitz (a16z)
+- Public API: none published at time of writing
+
+## Product
+
+- [How it works](https://www.ringly.io): AI agent "Seth" handles inbound support phone calls 24/7 for Shopify brands
+- [Pricing](https://www.ringly.io/pricing): Grow ($349/mo, 1,000 mins), Pro ($799/mo, 2,500 mins), Enterprise (custom, 5,000+ mins); overage $0.19–$0.29/min
+- [Shopify App](https://apps.shopify.com/ringly-io): install and connect a Shopify store
+
+## Documentation
+
+- [Help Center](https://help.ringly.io): setup, integrations (Shopify, Gorgias, phone number), and usage
+- [Changelog](https://help.ringly.io/en/articles/10150368-changelog): product change history
+- [Blog](https://www.ringly.io/the-ringly-io-blog): articles and product updates
+- [FAQ](https://www.ringly.io/faq): frequently asked questions
+
+## Account
+
+- [Sign Up / Onboarding](https://app.ringly.io/onboarding-2)
+- [Login / App](https://app.ringly.io)
+
+## Legal
+
+- [Terms of Service](https://www.ringly.io/terms-of-service)
+- [Privacy Policy](https://www.ringly.io/privacy-policy)
+- [Refund Policy](https://www.ringly.io/refund-policy)

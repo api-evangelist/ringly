@@ -1,7 +1,17 @@
 aid: ringly
 name: Ringly
-description: Ringly is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ringly (ringly.io) provides AI-powered phone support built specifically for
+  Shopify e-commerce brands. Its AI voice agent, "Seth," answers customer
+  service calls 24/7 — handling WISMO (where-is-my-order), returns, product
+  questions, inventory checks, and policy questions — and takes real actions by
+  connecting to Shopify order history and product catalogs, plus helpdesk and
+  order-tracking tools like Gorgias and TrackingMore. Ringly markets a 65%
+  call-resolution guarantee within 90 days and sells tiered monthly plans priced
+  by included call minutes. The product is delivered as a hosted SaaS and a
+  Shopify app; as of this profile Ringly publishes no public developer API, SDK,
+  or webhook surface. Ringly is a portfolio company of Andreessen Horowitz (a16z)
+  and was added to the API Evangelist network as a company profile.
 url: https://raw.githubusercontent.com/api-evangelist/ringly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,65 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.ringly.io/favicon.ico
 tags:
 - Company
+- AI
+- Voice
+- Customer Support
+- Ecommerce
+- Shopify
+- Phone Support
+- Conversational AI
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ringly-domain-security.yml
+- type: LLMsTxt
+  url: llms/ringly-llms.txt
+- type: WellKnown
+  url: well-known/ringly-well-known.yml
+- type: Website
+  url: https://www.ringly.io
+- type: Documentation
+  url: https://help.ringly.io
+- type: HelpCenter
+  url: https://help.ringly.io
+- type: Pricing
+  url: https://www.ringly.io/pricing
+- type: Blog
+  url: https://www.ringly.io/the-ringly-io-blog
+- type: ChangeLog
+  url: https://help.ringly.io/en/articles/10150368-changelog
+- type: SignUp
+  url: https://app.ringly.io/onboarding-2
+- type: Login
+  url: https://app.ringly.io
+- type: TermsOfService
+  url: https://www.ringly.io/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.ringly.io/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

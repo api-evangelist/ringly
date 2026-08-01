@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of https://www.ringly.io/.well-known/*
+note: >-
+  No .well-known documents are published. All standard discovery endpoints
+  returned HTTP 404. Recorded as honest negative evidence.
+host: www.ringly.io
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
