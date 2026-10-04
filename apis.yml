@@ -49,7 +49,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Voice
-- Customer-Support
+- Customer Support
 - E-Commerce
 - Shopify
 - Phone Support
@@ -63,6 +63,7 @@ tags_raw:
 - Shopify
 - Phone Support
 - Conversational AI
+- Customer-Support
 apis: []
 common:
 - type: DomainSecurity
