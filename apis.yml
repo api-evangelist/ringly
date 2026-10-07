@@ -66,6 +66,8 @@ tags_raw:
 - Customer-Support
 apis: []
 common:
+- type: Plans
+  url: plans/ringly-plans-pricing.yml
 - url: https://www.ringly.io/blog/rss.xml
   type: BlogRSS
 - type: DomainSecurity
