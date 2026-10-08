@@ -40,3 +40,33 @@ plans:
 - name: Custom plan (above 1,000 calls/mo)
   price_text: Talk to us about a custom plan
   period: none
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  units: []
+  plans:
+  - name: Per phone conversation
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - other
+    periods:
+    - other
+  - name: Monthly minimum
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Custom plan (above 1,000 calls/mo)
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
