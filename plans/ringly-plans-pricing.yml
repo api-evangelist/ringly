@@ -1,0 +1,42 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.ringly.io/pricing
+sources:
+- https://www.ringly.io/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: usage-other
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: 'Page example: "If you get 100 calls/mo (~80 billable conversations) $159 a month, all in". Spam,
+  hang-ups, wrong numbers, human-only transfers and internal testing are free. Spend cap settable; above
+  1,000 calls/mo custom rate.'
+plan_count: 3
+currency: USD
+plans:
+- name: Per phone conversation
+  price_text: $1.99
+  price: 1.99
+  currency: USD
+  period: per-use
+  unit: per phone conversation
+  included_quota: 50 conversations/mo minimum
+  overage: Conversations above 50 are $1.99 each and go on your next bill.
+- name: Monthly minimum
+  price_text: $99 a month
+  price: 99
+  currency: USD
+  period: month
+  unit: first 50 phone conversations
+  included_quota: covers your first 50 phone conversations
+  overage: Conversations above 50 are $1.99 each
+- name: Custom plan (above 1,000 calls/mo)
+  price_text: Talk to us about a custom plan
+  period: none
